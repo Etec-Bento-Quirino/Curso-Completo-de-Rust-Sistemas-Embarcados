@@ -1,0 +1,155 @@
+[package]
+name = "curso-rust-sistemas-embarcados"
+version = "1.0.0"
+edition = "2021"
+authors = ["ETEC Bento Quirino <contato@etecbentoquirino.com.br>"]
+description = "Curso Acadêmico de Rust para Sistemas Embarcados - ETEC Bento Quirino"
+license = "MIT"
+repository = "https://github.com/jackson-sa/curso-rust-sistemas-embarcados"
+homepage = "https://github.com/jackson-sa/curso-rust-sistemas-embarcados"
+documentation = "https://github.com/jackson-sa/curso-rust-sistemas-embarcados"
+keywords = [
+    "rust",
+    "embedded",
+    "systems",
+    "arduino",
+    "esp32",
+    "raspberry-pi",
+    "iot",
+    "academic",
+    "education",
+    "brasil",
+    "etec"
+]
+categories = [
+    "development-tools",
+    "education",
+    "embedded"
+]
+
+# Configuração para sistemas embarcados
+[lib]
+crate-type = ["cdylib", "staticlib"]
+
+# Dependências para Arduino (no_std)
+[dependencies]
+# Hardware Abstraction Layer
+embedded-hal = "1.0"
+nb = "1.1"
+
+# Arduino específico
+arduino-hal = "0.19"
+avr-hal = "0.19"
+
+# ESP32 específico
+esp-idf-hal = "0.12"
+esp-idf-sys = "0.12"
+esp-idf-svc = "0.12"
+
+# Raspberry Pi
+rppal = "0.14"
+tokio = { version = "1.35", features = ["full"] }
+
+# STM32
+stm32f4xx-hal = { version = "0.20", features = ["rt"] }
+cortex-m = "0.7"
+cortex-m-rt = "0.7"
+
+# Comunicação e Protocolos
+embedded-can = "0.5"
+embedded-io = "0.6"
+heapless = "0.8"
+
+# Serial e I2C/SPI
+embedded-hal-async = "1.0"
+fugit = "0.8"
+
+# Matemática e Algoritmos
+micromath = "2.0"
+nalgebra = "0.32"
+
+# Logging e Debug
+defmt = "0.3"
+log = "0.4"
+
+# Time e Timers
+embedded-time = "0.12"
+fugit-timer = "0.8"
+
+# Crypto e Segurança
+heapless = { version = "0.8", features = ["serde"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# Async Runtime
+embassy = { version = "0.1", features = ["defmt"] }
+
+# Utilities
+anyhow = "1.0"
+thiserror = "1.0"
+
+# Desenvolvimento e Testes
+[dev-dependencies]
+cortex-m-semihosting = "0.5"
+panic-halt = "0.2"
+panic-semihosting = "0.6"
+
+# Configurações específicas para diferentes targets
+[[bin]]
+name = "arduino-blink"
+path = "examples/arduino/blink.rs"
+
+[[bin]]
+name = "esp32-wifi"
+path = "examples/esp32/wifi.rs"
+
+[[bin]]
+name = "raspberry-pi-gpio"
+path = "examples/raspberry_pi/gpio.rs"
+
+[[bin]]
+name = "stm32-basic"
+path = "examples/stm32/basic.rs"
+
+# Configuração para release otimizado
+[profile.release]
+opt-level = "z"      # Otimização para tamanho
+lto = true           # Link-time optimization
+codegen-units = 1    # Uma unidade de código
+panic = "abort"      # Panic abort para reduzir tamanho
+strip = true         # Remover símbolos de debug
+
+# Configuração para debug
+[profile.dev]
+opt-level = 0
+debug = true
+overflow-checks = true
+
+# Configuração específica para embarcados
+[profile.dev.package."*"]
+opt-level = 1
+
+# Configuração para testes
+[profile.test]
+opt-level = 1
+debug = true
+
+# Features para diferentes plataformas
+[features]
+default = []
+arduino = ["arduino-hal", "avr-hal"]
+esp32 = ["esp-idf-hal", "esp-idf-sys", "esp-idf-svc"]
+raspberry-pi = ["rppal", "tokio"]
+stm32 = ["stm32f4xx-hal", "cortex-m", "cortex-m-rt"]
+std = ["log/std"]
+no-std = ["log/no-std", "heapless"]
+
+# Configuração de target específico
+[target.'cfg(target_arch = "avr")'.dependencies]
+panic-halt = "0.2"
+
+[target.'cfg(target_arch = "xtensa")'.dependencies]
+esp-idf-hal = "0.12"
+
+[target.'cfg(target_arch = "arm")'.dependencies]
+cortex-m = "0.7"

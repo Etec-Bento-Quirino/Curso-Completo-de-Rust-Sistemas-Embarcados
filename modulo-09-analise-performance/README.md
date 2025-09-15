@@ -10,7 +10,37 @@ Ao final deste módulo, você será capaz de:
 - ✅ Desenvolver ferramentas de análise de performance
 - ✅ Criar relatórios de performance para pesquisa acadêmica
 
+## 📋 **Pré-requisitos**
+
+### **Obrigatórios**
+- ✅ Conhecimento básico de Rust
+- ✅ Conceitos de sistemas embarcados
+- ✅ Familiaridade com profiling
+- ✅ Conhecimento de análise de performance
+
+### **Recomendados**
+- ✅ Experiência com benchmarking
+- ✅ Conhecimento de power management
+- ✅ Familiaridade com ferramentas de análise
+- ✅ Experiência com projetos de hardware
+
+### **Recursos de Aprendizado**
+- 📚 [The Rust Programming Language](https://doc.rust-lang.org/book/)
+- 🔧 [Rust Embedded Book](https://docs.rust-embedded.org/book/)
+- ⚡ [Embedded Rust Discovery](https://docs.rust-embedded.org/discovery/)
+- 📊 [Rust Performance Documentation](https://doc.rust-lang.org/book/ch13-00-functional-features.html)
+
 ## 📚 **Conteúdo Teórico Acadêmico**
+
+### **📋 Índice do Módulo**
+- [9.1 Profiling e Benchmarking](#91-profiling-e-benchmarking)
+- [9.2 Análise de Consumo Energético](#92-análise-de-consumo-energético)
+- [9.3 Otimização de Performance](#93-otimização-de-performance)
+- [Exemplos Práticos](#exemplos-práticos-acadêmicos)
+- [Projeto Acadêmico](#projeto-acadêmico-análise-comparativa-de-eficiência)
+- [Atividades Acadêmicas](#atividades-acadêmicas)
+
+---
 
 ### **9.1 Profiling e Benchmarking**
 

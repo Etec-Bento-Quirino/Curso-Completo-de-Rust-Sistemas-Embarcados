@@ -10,7 +10,37 @@ Ao final deste módulo, você será capaz de:
 - ✅ Implementar OTA (Over-The-Air) updates
 - ✅ Criar sistemas IoT seguros e eficientes
 
+## 📋 **Pré-requisitos**
+
+### **Obrigatórios**
+- ✅ Conhecimento básico de Rust
+- ✅ Conceitos de sistemas embarcados
+- ✅ Familiaridade com ESP32
+- ✅ Conhecimento de protocolos de rede
+
+### **Recomendados**
+- ✅ Experiência com `no_std` programming
+- ✅ Conhecimento de WiFi e Bluetooth
+- ✅ Familiaridade com protocolos IoT
+- ✅ Experiência com sistemas conectados
+
+### **Recursos de Aprendizado**
+- 📚 [The Rust Programming Language](https://doc.rust-lang.org/book/)
+- 🔧 [Rust Embedded Book](https://docs.rust-embedded.org/book/)
+- ⚡ [Embedded Rust Discovery](https://docs.rust-embedded.org/discovery/)
+- 🌐 [ESP32 Rust Community](https://github.com/esp-rs)
+
 ## 📚 **Conteúdo Teórico Acadêmico**
+
+### **📋 Índice do Módulo**
+- [4.1 Introdução ao ESP32](#41-introdução-ao-esp32)
+- [4.2 Conectividade WiFi](#42-conectividade-wifi)
+- [4.3 Protocolos IoT](#43-protocolos-iot)
+- [Exemplos Práticos](#exemplos-práticos-acadêmicos)
+- [Projeto Acadêmico](#projeto-acadêmico-sistema-iot-inteligente)
+- [Atividades Acadêmicas](#atividades-acadêmicas)
+
+---
 
 ### **4.1 Introdução ao ESP32**
 
@@ -177,6 +207,27 @@ Desenvolver sistema IoT completo com análise de dados em tempo real.
 - ✅ Análise de dados em tempo real
 - ✅ Power management inteligente
 - ✅ OTA updates automáticos
+
+---
+
+## 🧭 **Navegação**
+
+### **📚 Material de Apoio**
+- [**README Principal**](../../README.md) - Visão geral do curso
+- [**Tutoriais Detalhados**](../../TUTORIAIS.md) - Guia completo de tutoriais
+- [**Módulo 3: Arduino**](../modulo-03-arduino-rust/README.md) - Módulo anterior
+- [**Módulo 5: Raspberry Pi**](../modulo-05-raspberry-pi/README.md) - Próximo módulo
+
+### **🔗 Links Úteis**
+- [Rust Embedded Working Group](https://github.com/rust-embedded/wg)
+- [Arduino Rust Community](https://github.com/Rahix/avr-hal)
+- [ESP32 Rust Community](https://github.com/esp-rs)
+
+### **📖 Documentação Oficial**
+- [The Rust Programming Language](https://doc.rust-lang.org/book/)
+- [Rust Embedded Book](https://docs.rust-embedded.org/book/)
+- [Embedded Rust Discovery](https://docs.rust-embedded.org/discovery/)
+- [ESP32 Rust Documentation](https://github.com/esp-rs)
 
 ---
 

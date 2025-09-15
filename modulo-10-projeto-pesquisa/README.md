@@ -10,7 +10,37 @@ Ao final deste módulo, você será capaz de:
 - ✅ Apresentar e defender o projeto
 - ✅ Publicar resultados em formato científico
 
+## 📋 **Pré-requisitos**
+
+### **Obrigatórios**
+- ✅ Conhecimento completo de Rust
+- ✅ Conceitos de sistemas embarcados
+- ✅ Familiaridade com metodologia científica
+- ✅ Conhecimento de documentação acadêmica
+
+### **Recomendados**
+- ✅ Experiência com projetos de pesquisa
+- ✅ Conhecimento de análise de dados
+- ✅ Familiaridade com ferramentas de documentação
+- ✅ Experiência com apresentações acadêmicas
+
+### **Recursos de Aprendizado**
+- 📚 [The Rust Programming Language](https://doc.rust-lang.org/book/)
+- 🔧 [Rust Embedded Book](https://docs.rust-embedded.org/book/)
+- ⚡ [Embedded Rust Discovery](https://docs.rust-embedded.org/discovery/)
+- 📊 [Rust Performance Documentation](https://doc.rust-lang.org/book/ch13-00-functional-features.html)
+
 ## 📚 **Estrutura do Projeto Final**
+
+### **📋 Índice do Módulo**
+- [10.1 Metodologia de Pesquisa](#101-metodologia-de-pesquisa)
+- [10.2 Temas Sugeridos para Pesquisa](#102-temas-sugeridos-para-pesquisa)
+- [10.3 Estrutura do Relatório](#103-estrutura-do-relatório)
+- [Exemplos Práticos](#exemplos-práticos-acadêmicos)
+- [Projeto Acadêmico](#projeto-acadêmico-sistema-embarcado-para-pesquisa)
+- [Atividades Acadêmicas](#atividades-acadêmicas)
+
+---
 
 ### **10.1 Metodologia de Pesquisa**
 
@@ -282,6 +312,28 @@ projeto-final/
 - Apresentação clara
 - Resposta a questionamentos
 - Qualidade da documentação
+
+---
+
+## 🧭 **Navegação**
+
+### **📚 Material de Apoio**
+- [**README Principal**](../../README.md) - Visão geral do curso
+- [**Tutoriais Detalhados**](../../TUTORIAIS.md) - Guia completo de tutoriais
+- [**Módulo 9: Análise de Performance**](../modulo-09-analise-performance/README.md) - Módulo anterior
+- [**Módulo 1: Fundamentos**](../modulo-01-fundamentos-embarcados/README.md) - Reiniciar curso
+
+### **🔗 Links Úteis**
+- [Rust Embedded Working Group](https://github.com/rust-embedded/wg)
+- [Arduino Rust Community](https://github.com/Rahix/avr-hal)
+- [ESP32 Rust Community](https://github.com/esp-rs)
+- [Raspberry Pi Rust](https://github.com/golemparts/rppal)
+
+### **📖 Documentação Oficial**
+- [The Rust Programming Language](https://doc.rust-lang.org/book/)
+- [Rust Embedded Book](https://docs.rust-embedded.org/book/)
+- [Embedded Rust Discovery](https://docs.rust-embedded.org/discovery/)
+- [Rust Performance Documentation](https://doc.rust-lang.org/book/ch13-00-functional-features.html)
 
 ---
 

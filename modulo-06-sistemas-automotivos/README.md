@@ -10,7 +10,36 @@ Ao final deste módulo, você será capaz de:
 - ✅ Desenvolver diagnósticos automotivos
 - ✅ Criar sistemas de controle automotivo
 
+## 📋 **Pré-requisitos**
+
+### **Obrigatórios**
+- ✅ Conhecimento básico de Rust
+- ✅ Conceitos de sistemas embarcados
+- ✅ Familiaridade com protocolos de comunicação
+- ✅ Conhecimento de sistemas automotivos
+
+### **Recomendados**
+- ✅ Experiência com CAN bus
+- ✅ Conhecimento de OBD-II
+- ✅ Familiaridade com sistemas de segurança
+- ✅ Experiência com projetos automotivos
+
+### **Recursos de Aprendizado**
+- 📚 [The Rust Programming Language](https://doc.rust-lang.org/book/)
+- 🔧 [Rust Embedded Book](https://docs.rust-embedded.org/book/)
+- ⚡ [Embedded Rust Discovery](https://docs.rust-embedded.org/discovery/)
+- 🚗 [CAN Bus Documentation](https://en.wikipedia.org/wiki/CAN_bus)
+
 ## 📚 **Conteúdo Teórico Acadêmico**
+
+### **📋 Índice do Módulo**
+- [6.1 Comunicação CAN Bus](#61-comunicação-can-bus)
+- [6.2 Sistema de Telemetria](#62-sistema-de-telemetria)
+- [Exemplos Práticos](#exemplos-práticos-acadêmicos)
+- [Projeto Acadêmico](#projeto-acadêmico-sistema-de-diagnóstico-automotivo)
+- [Atividades Acadêmicas](#atividades-acadêmicas)
+
+---
 
 ### **6.1 Comunicação CAN Bus**
 

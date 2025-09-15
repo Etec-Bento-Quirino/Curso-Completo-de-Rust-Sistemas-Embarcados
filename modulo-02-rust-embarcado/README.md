@@ -10,7 +10,37 @@ Ao final deste módulo, você será capaz de:
 - ✅ Implementar abstrações de hardware seguras
 - ✅ Analisar trade-offs entre segurança e performance
 
+## 📋 **Pré-requisitos**
+
+### **Obrigatórios**
+- ✅ Conhecimento básico de Rust
+- ✅ Conceitos de sistemas embarcados
+- ✅ Familiaridade com microcontroladores
+- ✅ Conhecimento de programação em C/C++
+
+### **Recomendados**
+- ✅ Experiência com `no_std` programming
+- ✅ Conhecimento de assembly básico
+- ✅ Familiaridade com debugging
+- ✅ Experiência com sistemas em tempo real
+
+### **Recursos de Aprendizado**
+- 📚 [The Rust Programming Language](https://doc.rust-lang.org/book/)
+- 🔧 [Rust Embedded Book](https://docs.rust-embedded.org/book/)
+- ⚡ [Embedded Rust Discovery](https://docs.rust-embedded.org/discovery/)
+
 ## 📚 **Conteúdo Teórico Acadêmico**
+
+### **📋 Índice do Módulo**
+- [2.1 Introdução ao no_std](#21-introdução-ao-no_std)
+- [2.2 Memory Safety em Embarcados](#22-memory-safety-em-embarcados)
+- [2.3 Sistema de Interrupções](#23-sistema-de-interrupções)
+- [2.4 Gerenciamento de Memória](#24-gerenciamento-de-memória)
+- [Exemplos Práticos](#exemplos-práticos-acadêmicos)
+- [Projeto Acadêmico](#projeto-acadêmico-sistema-crítico-em-tempo-real)
+- [Atividades Acadêmicas](#atividades-acadêmicas)
+
+---
 
 ### **2.1 Introdução ao no_std**
 
@@ -596,6 +626,26 @@ sistema-critico/
 - Clareza na exposição
 - Resposta a questionamentos
 - Qualidade do relatório
+
+---
+
+## 🧭 **Navegação**
+
+### **📚 Material de Apoio**
+- [**README Principal**](../../README.md) - Visão geral do curso
+- [**Tutoriais Detalhados**](../../TUTORIAIS.md) - Guia completo de tutoriais
+- [**Módulo 1: Fundamentos**](../modulo-01-fundamentos-embarcados/README.md) - Módulo anterior
+- [**Módulo 3: Arduino**](../modulo-03-arduino-rust/README.md) - Próximo módulo
+
+### **🔗 Links Úteis**
+- [Rust Embedded Working Group](https://github.com/rust-embedded/wg)
+- [Arduino Rust Community](https://github.com/Rahix/avr-hal)
+- [ESP32 Rust Community](https://github.com/esp-rs)
+
+### **📖 Documentação Oficial**
+- [The Rust Programming Language](https://doc.rust-lang.org/book/)
+- [Rust Embedded Book](https://docs.rust-embedded.org/book/)
+- [Embedded Rust Discovery](https://docs.rust-embedded.org/discovery/)
 
 ---
 

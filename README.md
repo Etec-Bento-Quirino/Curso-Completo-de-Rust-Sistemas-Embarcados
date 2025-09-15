@@ -1,5 +1,11 @@
 # 🎓 Curso Completo de Rust para Sistemas Embarcados
 
+**Professor:** Jackson Sá  
+**Instituição:** ETEC Bento Quirino - Campinas/SP  
+**Baseado em:** Rust Embedded Ecosystem e metodologia acadêmica
+
+---
+
 ## 🎯 **Objetivo do Curso**
 
 Este curso acadêmico especializado ensina programação de sistemas embarcados utilizando Rust, com foco em aplicações práticas para pesquisa e desenvolvimento. Os estudantes aprenderão a desenvolver sistemas críticos, IoT, automação e projetos de pesquisa utilizando as vantagens únicas do Rust em ambientes embarcados.
@@ -42,12 +48,27 @@ Este curso acadêmico especializado ensina programação de sistemas embarcados 
 
 ## 📚 **Estrutura do Curso Acadêmico**
 
+### **📋 Índice de Módulos**
+- [**Módulo 1: 🏗️ Fundamentos de Sistemas Embarcados**](#módulo-1-fundamentos-de-sistemas-embarcados)
+- [**Módulo 2: ⚡ Rust no Contexto Embarcado**](#módulo-2-rust-no-contexto-embarcado)
+- [**Módulo 3: 🔧 Arduino com Rust (no_std)**](#módulo-3-arduino-com-rust-no_std)
+- [**Módulo 4: 📡 ESP32 e IoT com Rust**](#módulo-4-esp32-e-iot-com-rust)
+- [**Módulo 5: 🍓 Raspberry Pi e Linux Embarcado**](#módulo-5-raspberry-pi-e-linux-embarcado)
+- [**Módulo 6: 🚗 Sistemas Automotivos**](#módulo-6-sistemas-automotivos)
+- [**Módulo 7: 🏭 Sistemas Industriais**](#módulo-7-sistemas-industriais)
+- [**Módulo 8: 🧪 Desenvolvimento e Testes**](#módulo-8-desenvolvimento-e-testes)
+- [**Módulo 9: 📊 Análise de Performance**](#módulo-9-análise-de-performance)
+- [**Módulo 10: 🎯 Projeto de Pesquisa Final**](#módulo-10-projeto-de-pesquisa-final)
+
+---
+
 ### **Módulo 1: 🏗️ Fundamentos de Sistemas Embarcados**
 - Arquitetura de microcontroladores e processadores
 - Conceitos de sistemas em tempo real
 - Limitações de recursos (memória, CPU, energia)
 - Comparação Rust vs C/C++ em embarcados
 - **Projeto**: Análise comparativa de performance
+- **📖 [Ver Módulo 1](modulo-01-fundamentos-embarcados/README.md)**
 
 ### **Módulo 2: ⚡ Rust no Contexto Embarcado**
 - Introdução ao Rust `no_std`
@@ -55,6 +76,7 @@ Este curso acadêmico especializado ensina programação de sistemas embarcados 
 - Memory safety em ambientes restritos
 - Interrupt handling e concorrência
 - **Projeto**: Sistema básico com interrupções
+- **📖 [Ver Módulo 2](modulo-02-rust-embarcado/README.md)**
 
 ### **Módulo 3: 🔧 Arduino com Rust (no_std)**
 - Configuração do ambiente de desenvolvimento
@@ -62,6 +84,7 @@ Este curso acadêmico especializado ensina programação de sistemas embarcados 
 - GPIO, PWM, ADC, Serial communication
 - Timers, interrupções e comunicação I2C/SPI
 - **Projeto**: Sistema de monitoramento ambiental
+- **📖 [Ver Módulo 3](modulo-03-arduino-rust/README.md)**
 
 ### **Módulo 4: 📡 ESP32 e IoT com Rust**
 - WiFi e Bluetooth com Rust
@@ -69,6 +92,7 @@ Este curso acadêmico especializado ensina programação de sistemas embarcados 
 - OTA (Over-The-Air) updates
 - Power management e sensor integration
 - **Projeto**: Estação meteorológica IoT
+- **📖 [Ver Módulo 4](modulo-04-esp32-iot/README.md)**
 
 ### **Módulo 5: 🍓 Raspberry Pi e Linux Embarcado**
 - Rust em sistemas Linux embarcados
@@ -76,6 +100,7 @@ Este curso acadêmico especializado ensina programação de sistemas embarcados 
 - Audio/video processing
 - Network programming e serviços
 - **Projeto**: Sistema de segurança inteligente
+- **📖 [Ver Módulo 5](modulo-05-raspberry-pi/README.md)**
 
 ### **Módulo 6: 🚗 Sistemas Automotivos**
 - CAN bus communication
@@ -83,6 +108,7 @@ Este curso acadêmico especializado ensina programação de sistemas embarcados 
 - Diagnostics e telemetria
 - Safety-critical systems
 - **Projeto**: Sistema de telemetria veicular
+- **📖 [Ver Módulo 6](modulo-06-sistemas-automotivos/README.md)**
 
 ### **Módulo 7: 🏭 Sistemas Industriais**
 - PLC programming com Rust
@@ -90,6 +116,7 @@ Este curso acadêmico especializado ensina programação de sistemas embarcados 
 - SCADA systems
 - Safety systems (SIL)
 - **Projeto**: Sistema de controle industrial
+- **📖 [Ver Módulo 7](modulo-07-sistemas-industriais/README.md)**
 
 ### **Módulo 8: 🧪 Desenvolvimento e Testes**
 - Debugging em sistemas embarcados
@@ -97,6 +124,7 @@ Este curso acadêmico especializado ensina programação de sistemas embarcados 
 - Hardware-in-the-loop testing
 - Continuous integration para embarcados
 - **Projeto**: Suite de testes automatizados
+- **📖 [Ver Módulo 8](modulo-08-desenvolvimento-testes/README.md)**
 
 ### **Módulo 9: 📊 Análise de Performance**
 - Profiling e benchmarking
@@ -104,6 +132,7 @@ Este curso acadêmico especializado ensina programação de sistemas embarcados 
 - Real-time performance metrics
 - Optimization techniques
 - **Projeto**: Análise comparativa de eficiência
+- **📖 [Ver Módulo 9](modulo-09-analise-performance/README.md)**
 
 ### **Módulo 10: 🎯 Projeto de Pesquisa Final**
 - Projeto integrador completo
@@ -111,6 +140,7 @@ Este curso acadêmico especializado ensina programação de sistemas embarcados 
 - Apresentação e defesa
 - Publicação de resultados
 - **Projeto**: Sistema embarcado para pesquisa
+- **📖 [Ver Módulo 10](modulo-10-projeto-pesquisa/README.md)**
 
 ## 🎓 **Metodologia Acadêmica**
 
@@ -216,6 +246,12 @@ Este curso acadêmico especializado ensina programação de sistemas embarcados 
 - ✅ Familiaridade com Linux
 - ✅ Experiência com projetos de hardware
 
+### **Recursos de Aprendizado**
+- 📚 [The Rust Programming Language](https://doc.rust-lang.org/book/)
+- 🔧 [Rust Embedded Book](https://docs.rust-embedded.org/book/)
+- ⚡ [Embedded Rust Discovery](https://docs.rust-embedded.org/discovery/)
+- 🛠️ [Arduino Documentation](https://www.arduino.cc/reference/)
+
 ## 🌟 **Diferencial Acadêmico**
 
 ### **Para Estudantes**
@@ -292,6 +328,22 @@ Este curso acadêmico especializado ensina programação de sistemas embarcados 
 - Mentoria acadêmica
 - Grupos de estudo
 - Eventos e workshops
+
+---
+
+## 🧭 **Navegação Rápida**
+
+### **📚 Material de Apoio**
+- [**Tutoriais Detalhados**](TUTORIAIS.md) - Guia completo de tutoriais
+- [**Módulo 1: Fundamentos**](modulo-01-fundamentos-embarcados/README.md) - Comece aqui
+- [**Módulo 2: Rust Embarcado**](modulo-02-rust-embarcado/README.md) - Próximo passo
+- [**Módulo 3: Arduino**](modulo-03-arduino-rust/README.md) - Prática com Arduino
+
+### **🔗 Links Úteis**
+- [Rust Embedded Working Group](https://github.com/rust-embedded/wg)
+- [Arduino Rust Community](https://github.com/Rahix/avr-hal)
+- [ESP32 Rust Community](https://github.com/esp-rs)
+- [Raspberry Pi Rust](https://github.com/golemparts/rppal)
 
 ---
 

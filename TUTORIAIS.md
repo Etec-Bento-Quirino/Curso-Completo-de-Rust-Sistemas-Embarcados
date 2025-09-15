@@ -8,6 +8,14 @@ Este documento contém tutoriais detalhados para cada módulo do curso, com foco
 
 ## 📋 **Índice de Tutoriais Acadêmicos**
 
+### **🏠 Navegação Principal**
+- [**Voltar ao README Principal**](README.md) - Visão geral do curso
+- [**Módulo 1: Fundamentos**](modulo-01-fundamentos-embarcados/README.md) - Comece aqui
+- [**Módulo 2: Rust Embarcado**](modulo-02-rust-embarcado/README.md) - Próximo passo
+- [**Módulo 3: Arduino**](modulo-03-arduino-rust/README.md) - Prática com Arduino
+
+---
+
 ### **Módulo 1: 🏗️ Fundamentos de Sistemas Embarcados**
 - [Tutorial 1.1: Análise Comparativa Rust vs C](#tutorial-11-análise-comparativa-rust-vs-c)
 - [Tutorial 1.2: Arquitetura de Microcontroladores](#tutorial-12-arquitetura-de-microcontroladores)
@@ -459,6 +467,27 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 - **Manutenibilidade**: Complexidade ciclomática, linhas de código
 - **Consumo Energético**: Medições de corrente e tensão
 - **Confiabilidade**: Tempo entre falhas, taxa de erro
+
+---
+
+## 🧭 **Navegação e Recursos**
+
+### **📚 Material de Apoio**
+- [**README Principal**](README.md) - Visão geral do curso
+- [**Módulo 1: Fundamentos**](modulo-01-fundamentos-embarcados/README.md) - Comece aqui
+- [**Módulo 2: Rust Embarcado**](modulo-02-rust-embarcado/README.md) - Próximo passo
+- [**Módulo 3: Arduino**](modulo-03-arduino-rust/README.md) - Prática com Arduino
+
+### **🔗 Links Úteis**
+- [Rust Embedded Working Group](https://github.com/rust-embedded/wg)
+- [Arduino Rust Community](https://github.com/Rahix/avr-hal)
+- [ESP32 Rust Community](https://github.com/esp-rs)
+- [Raspberry Pi Rust](https://github.com/golemparts/rppal)
+
+### **📖 Documentação Oficial**
+- [The Rust Programming Language](https://doc.rust-lang.org/book/)
+- [Rust Embedded Book](https://docs.rust-embedded.org/book/)
+- [Embedded Rust Discovery](https://docs.rust-embedded.org/discovery/)
 
 ---
 

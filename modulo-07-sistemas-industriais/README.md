@@ -10,7 +10,37 @@ Ao final deste módulo, você será capaz de:
 - ✅ Criar sistemas de monitoramento industrial
 - ✅ Desenvolver automação industrial
 
+## 📋 **Pré-requisitos**
+
+### **Obrigatórios**
+- ✅ Conhecimento básico de Rust
+- ✅ Conceitos de sistemas embarcados
+- ✅ Familiaridade com protocolos industriais
+- ✅ Conhecimento de sistemas PLC
+
+### **Recomendados**
+- ✅ Experiência com automação industrial
+- ✅ Conhecimento de SCADA
+- ✅ Familiaridade com sistemas de segurança
+- ✅ Experiência com projetos industriais
+
+### **Recursos de Aprendizado**
+- 📚 [The Rust Programming Language](https://doc.rust-lang.org/book/)
+- 🔧 [Rust Embedded Book](https://docs.rust-embedded.org/book/)
+- ⚡ [Embedded Rust Discovery](https://docs.rust-embedded.org/discovery/)
+- 🏭 [Industrial Automation Documentation](https://www.isa.org/)
+
 ## 📚 **Conteúdo Teórico Acadêmico**
+
+### **📋 Índice do Módulo**
+- [7.1 PLC Programming com Rust](#71-plc-programming-com-rust)
+- [7.2 Protocolos Industriais](#72-protocolos-industriais)
+- [7.3 Sistemas SCADA](#73-sistemas-scada)
+- [Exemplos Práticos](#exemplos-práticos-acadêmicos)
+- [Projeto Acadêmico](#projeto-acadêmico-sistema-de-controle-industrial)
+- [Atividades Acadêmicas](#atividades-acadêmicas)
+
+---
 
 ### **7.1 PLC Programming com Rust**
 

@@ -10,7 +10,37 @@ Ao final deste módulo, você será capaz de:
 - ✅ Criar protocolos de comunicação (I2C, SPI, Serial)
 - ✅ Realizar projetos de pesquisa com Arduino e Rust
 
+## 📋 **Pré-requisitos**
+
+### **Obrigatórios**
+- ✅ Conhecimento básico de Rust
+- ✅ Conceitos de sistemas embarcados
+- ✅ Familiaridade com Arduino
+- ✅ Conhecimento de eletrônica básica
+
+### **Recomendados**
+- ✅ Experiência com `no_std` programming
+- ✅ Conhecimento de protocolos de comunicação
+- ✅ Familiaridade com debugging
+- ✅ Experiência com projetos de hardware
+
+### **Recursos de Aprendizado**
+- 📚 [The Rust Programming Language](https://doc.rust-lang.org/book/)
+- 🔧 [Rust Embedded Book](https://docs.rust-embedded.org/book/)
+- ⚡ [Embedded Rust Discovery](https://docs.rust-embedded.org/discovery/)
+- 🛠️ [Arduino Documentation](https://www.arduino.cc/reference/)
+
 ## 📚 **Conteúdo Teórico Acadêmico**
+
+### **📋 Índice do Módulo**
+- [3.1 Introdução ao no_std](#31-introdução-ao-no_std)
+- [3.2 Hardware Abstraction Layer (HAL)](#32-hardware-abstraction-layer-hal)
+- [3.3 Sistema de Interrupções](#33-sistema-de-interrupções)
+- [Exemplos Práticos](#exemplos-práticos-acadêmicos)
+- [Projeto Acadêmico](#projeto-acadêmico-estação-meteorológica)
+- [Atividades Acadêmicas](#atividades-acadêmicas)
+
+---
 
 ### **3.1 Introdução ao no_std**
 
@@ -546,6 +576,27 @@ estacao-meteorologica/
 - Demonstração prática
 - Resposta a questionamentos
 - Qualidade do relatório
+
+---
+
+## 🧭 **Navegação**
+
+### **📚 Material de Apoio**
+- [**README Principal**](../../README.md) - Visão geral do curso
+- [**Tutoriais Detalhados**](../../TUTORIAIS.md) - Guia completo de tutoriais
+- [**Módulo 2: Rust Embarcado**](../modulo-02-rust-embarcado/README.md) - Módulo anterior
+- [**Módulo 4: ESP32 e IoT**](../modulo-04-esp32-iot/README.md) - Próximo módulo
+
+### **🔗 Links Úteis**
+- [Rust Embedded Working Group](https://github.com/rust-embedded/wg)
+- [Arduino Rust Community](https://github.com/Rahix/avr-hal)
+- [ESP32 Rust Community](https://github.com/esp-rs)
+
+### **📖 Documentação Oficial**
+- [The Rust Programming Language](https://doc.rust-lang.org/book/)
+- [Rust Embedded Book](https://docs.rust-embedded.org/book/)
+- [Embedded Rust Discovery](https://docs.rust-embedded.org/discovery/)
+- [Arduino Documentation](https://www.arduino.cc/reference/)
 
 ---
 

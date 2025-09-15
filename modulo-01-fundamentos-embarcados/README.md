@@ -10,7 +10,36 @@ Ao final deste módulo, você será capaz de:
 - ✅ Avaliar trade-offs entre performance, segurança e manutenibilidade
 - ✅ Desenvolver metodologia de pesquisa para análise comparativa
 
+## 📋 **Pré-requisitos**
+
+### **Obrigatórios**
+- ✅ Conhecimento básico de programação
+- ✅ Conceitos de eletrônica digital
+- ✅ Familiaridade com sistemas embarcados
+- ✅ Conhecimento de protocolos de comunicação
+
+### **Recomendados**
+- ✅ Experiência com microcontroladores
+- ✅ Conhecimento básico de Rust
+- ✅ Familiaridade com Linux
+- ✅ Experiência com projetos de hardware
+
+### **Recursos de Aprendizado**
+- 📚 [The Rust Programming Language](https://doc.rust-lang.org/book/)
+- 🔧 [Rust Embedded Book](https://docs.rust-embedded.org/book/)
+- ⚡ [Embedded Rust Discovery](https://docs.rust-embedded.org/discovery/)
+
 ## 📚 **Conteúdo Teórico Acadêmico**
+
+### **📋 Índice do Módulo**
+- [1.1 Arquitetura de Sistemas Embarcados](#11-arquitetura-de-sistemas-embarcados)
+- [1.2 Limitações de Recursos](#12-limitações-de-recursos)
+- [1.3 Sistemas em Tempo Real](#13-sistemas-em-tempo-real)
+- [Exemplos Práticos](#exemplos-práticos-acadêmicos)
+- [Projeto Acadêmico](#projeto-acadêmico-análise-comparativa)
+- [Atividades Acadêmicas](#atividades-acadêmicas)
+
+---
 
 ### **1.1 Arquitetura de Sistemas Embarcados**
 
@@ -426,6 +455,25 @@ Desenvolva um benchmark que compare:
 - Arduino IDE
 - PlatformIO
 - Rust Analyzer
+
+---
+
+## 🧭 **Navegação**
+
+### **📚 Material de Apoio**
+- [**README Principal**](../../README.md) - Visão geral do curso
+- [**Tutoriais Detalhados**](../../TUTORIAIS.md) - Guia completo de tutoriais
+- [**Módulo 2: Rust Embarcado**](../modulo-02-rust-embarcado/README.md) - Próximo módulo
+
+### **🔗 Links Úteis**
+- [Rust Embedded Working Group](https://github.com/rust-embedded/wg)
+- [Arduino Rust Community](https://github.com/Rahix/avr-hal)
+- [ESP32 Rust Community](https://github.com/esp-rs)
+
+### **📖 Documentação Oficial**
+- [The Rust Programming Language](https://doc.rust-lang.org/book/)
+- [Rust Embedded Book](https://docs.rust-embedded.org/book/)
+- [Embedded Rust Discovery](https://docs.rust-embedded.org/discovery/)
 
 ---
 

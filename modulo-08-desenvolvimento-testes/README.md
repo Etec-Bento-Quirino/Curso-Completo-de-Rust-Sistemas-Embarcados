@@ -10,7 +10,37 @@ Ao final deste módulo, você será capaz de:
 - ✅ Criar ferramentas de análise e profiling
 - ✅ Desenvolver metodologias de teste para sistemas críticos
 
+## 📋 **Pré-requisitos**
+
+### **Obrigatórios**
+- ✅ Conhecimento básico de Rust
+- ✅ Conceitos de sistemas embarcados
+- ✅ Familiaridade com debugging
+- ✅ Conhecimento de testes de software
+
+### **Recomendados**
+- ✅ Experiência com CI/CD
+- ✅ Conhecimento de profiling
+- ✅ Familiaridade com ferramentas de análise
+- ✅ Experiência com projetos de hardware
+
+### **Recursos de Aprendizado**
+- 📚 [The Rust Programming Language](https://doc.rust-lang.org/book/)
+- 🔧 [Rust Embedded Book](https://docs.rust-embedded.org/book/)
+- ⚡ [Embedded Rust Discovery](https://docs.rust-embedded.org/discovery/)
+- 🧪 [Rust Testing Documentation](https://doc.rust-lang.org/book/ch11-00-testing.html)
+
 ## 📚 **Conteúdo Teórico Acadêmico**
+
+### **📋 Índice do Módulo**
+- [8.1 Debugging em Sistemas Embarcados](#81-debugging-em-sistemas-embarcados)
+- [8.2 Testes Unitários e de Integração](#82-testes-unitários-e-de-integração)
+- [8.3 Hardware-in-the-Loop Testing](#83-hardware-in-the-loop-testing)
+- [Exemplos Práticos](#exemplos-práticos-acadêmicos)
+- [Projeto Acadêmico](#projeto-acadêmico-suite-de-testes-automatizados)
+- [Atividades Acadêmicas](#atividades-acadêmicas)
+
+---
 
 ### **8.1 Debugging em Sistemas Embarcados**
 

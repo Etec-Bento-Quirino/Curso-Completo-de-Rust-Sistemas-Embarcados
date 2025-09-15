@@ -10,7 +10,36 @@ Ao final deste módulo, você será capaz de:
 - ✅ Gerenciar recursos do sistema
 - ✅ Desenvolver aplicações Linux embarcadas
 
+## 📋 **Pré-requisitos**
+
+### **Obrigatórios**
+- ✅ Conhecimento básico de Rust
+- ✅ Conceitos de sistemas embarcados
+- ✅ Familiaridade com Linux
+- ✅ Conhecimento de GPIO e periféricos
+
+### **Recomendados**
+- ✅ Experiência com Raspberry Pi
+- ✅ Conhecimento de Python ou C
+- ✅ Familiaridade com sistemas de arquivos
+- ✅ Experiência com projetos de hardware
+
+### **Recursos de Aprendizado**
+- 📚 [The Rust Programming Language](https://doc.rust-lang.org/book/)
+- 🔧 [Rust Embedded Book](https://docs.rust-embedded.org/book/)
+- ⚡ [Embedded Rust Discovery](https://docs.rust-embedded.org/discovery/)
+- 🍓 [Raspberry Pi Documentation](https://www.raspberrypi.org/documentation/)
+
 ## 📚 **Conteúdo Teórico Acadêmico**
+
+### **📋 Índice do Módulo**
+- [5.1 Raspberry Pi com Rust](#51-raspberry-pi-com-rust)
+- [5.2 Camera Interface](#52-camera-interface)
+- [Exemplos Práticos](#exemplos-práticos-acadêmicos)
+- [Projeto Acadêmico](#projeto-acadêmico-sistema-de-segurança-inteligente)
+- [Atividades Acadêmicas](#atividades-acadêmicas)
+
+---
 
 ### **5.1 Raspberry Pi com Rust**
 

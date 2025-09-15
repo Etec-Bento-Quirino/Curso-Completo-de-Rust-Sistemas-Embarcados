@@ -1,4 +1,4 @@
-# 🎓 Curso Acadêmico: Rust para Sistemas Embarcados
+# 🎓 Curso Completo de Rust para Sistemas Embarcados
 
 ## 🎯 **Objetivo do Curso**
 
@@ -299,4 +299,4 @@ Este curso acadêmico especializado ensina programação de sistemas embarcados 
 
 *ETEC Bento Quirino - Curso Acadêmico de Rust para Sistemas Embarcados*
 
-**🎓 Transformando o futuro da educação em sistemas embarcados com Rust!**
+**🎓 Curso Completo de Rust para Sistemas Embarcados - Transformando o futuro da educação!**

@@ -1,4 +1,4 @@
-# 📚 Tutoriais Acadêmicos - Rust para Sistemas Embarcados
+# 📚 Tutoriais - Curso Completo de Rust para Sistemas Embarcados
 
 ## 🎯 **Guia de Tutoriais para Pesquisa e Desenvolvimento**
 
@@ -464,4 +464,4 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
 **Desenvolvido com ❤️ para a comunidade acadêmica brasileira**
 
-*ETEC Bento Quirino - Curso Acadêmico de Rust para Sistemas Embarcados*
+*ETEC Bento Quirino - Curso Completo de Rust para Sistemas Embarcados*
